@@ -1,0 +1,11 @@
+* {
+    text-align: center;
+}
+
+.name {
+    color: red;
+}
+
+a {
+    display: block;
+}
