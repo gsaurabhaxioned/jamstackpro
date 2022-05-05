@@ -3,8 +3,9 @@ title: Eleventy Site
 layout: base.njk
 permalink: "page2.html"
 ---
-# This is Blog Posts
+ This is Blog Posts
 
+==================
 ___
 
 ## Post 7
