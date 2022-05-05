@@ -16,8 +16,21 @@ a {
     padding: 5px;
     background-color: #ff0000;
     color: #fff;
+    transition: all ease-in-out 0.5;
+    -webkit-transition: all ease-in-out 0.5;
+    -moz-transition: all ease-in-out 0.5;
+    -ms-transition: all ease-in-out 0.5;
+    -o-transition: all ease-in-out 0.5;
+}
+
+a:hover {
+    background-color: #0000ff;
 }
 
 h2 {
     color: #a52a2a;
+}
+
+hr {
+    width: 50%;
 }

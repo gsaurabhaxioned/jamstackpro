@@ -11,3 +11,6 @@ module.exports = function(eleventyconfig) {
         }
     }
   }
+
+  var md = require('markdown-it')()
+            .use(require('markdown-it-container'), 'blog');
