@@ -8,21 +8,15 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
 </head>
 <body>
-<header>
-    <h1>Hello World!!!!</h1>
-</header>
 <main>
-        {% for i in range(1, 10) -%}
-         this is line number {{i}} <br>
-    {% endfor %}
-
-    <h2>This template is by <span class="name">{{ name }}</span></h2>
     {{content | safe}}
 </main>
 <footer>
-    <a href="/page1">page 1 content</a>
-    <a href="/page2">page 2 content</a>
-    <a href="/page3">page 3 content</a>
+    <div class="pagination">
+    {% for i in range(1, 6) -%}
+         <a href="/{{i}}.html">{{i}}</a>
+    {%- endfor %}
+</div>
 </footer>
 </body>
 </html>

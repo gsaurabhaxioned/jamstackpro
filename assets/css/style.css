@@ -6,11 +6,18 @@
     color: red;
 }
 
-a {
-    display: block;
-}
 
 img {
     width: 200px;
     height: 200px;
+}
+
+a {
+    padding: 5px;
+    background-color: #ff0000;
+    color: #fff;
+}
+
+h2 {
+    color: #a52a2a;
 }
