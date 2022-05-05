@@ -1,7 +1,7 @@
 ---
 title: Eleventy Site
 layout: base.njk
-permalink: "5.html"
+permalink: "page5.html"
 ---
 # This is Blog Posts
 
